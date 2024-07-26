@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.preto{
+    background-color: black;
+    padding: 18px;
+    display: flex;
+    
+}
+
+
+
+.cabeçalho{
+    margin: 0;
+    padding: 30px 0;
+    background-color:rgb(27, 85, 27); 
+    display: flex;
+    justify-content: center;
+
+}
+
+.lojadoribamar{
+    width: 25%; 
+padding-left: 50px;
+}
+
+input{
+
+width: 100%;
+height: 34px;
+font-size: large;
+
+}
+
+.pesquisar{
+    background-color: white;
+   padding-right: 100px ;
+
+    display: inline-block;
+    color: gray;
+    }
+
+.Esportes{
+    color: white;
+
+    display: inline-block;
+    padding-left: 60vmax;
+    padding-right: 20px;
+}
+
+
+.Produtostotal{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+.Produtos{
+height: 450px;
+    width: 300px;
+    
+    
+    }
+
+    .bloco{
+
+        text-align: center;
+    }
+
+    .buttondecomprar{
+background-color: rgb(27, 85, 27);
+border-radius: 40px 40px 40px 40px;
+width: 100px;
+height: 50px;
+font-size: 18px;
+transition: 200ms;
+color: white;
+cursor: pointer;
+user-select: none;
+
+    }
+
+.ardidas{
+    width: 19%;
+    
+}
+.pumba{
+    width: 16%;
+}
+.patrocinadores{
+    
+    background-color:rgb(27, 85, 27); 
+    padding: 40px;
+    padding-left: 40px;
+}
+
+.patrocinio{
+
+display: flex;
+
+}
+.sóvai{
+    color:white;
+    background-color:rgb(27, 85, 27); 
+}
+

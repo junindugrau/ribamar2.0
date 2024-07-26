@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagamento.css">
+    <title>Document</title>
+
+</head>
+
+
+
+
+<body>
+
+    <header class="parte1">
+    
+        <h2>Dados de Pagamento</h2>
+
+    </header>
+
+    <form>
+        <div class="formulario">
+        <label for="text">Nome</label>
+        <input type="text" id="nome" name="name" required>
+    </div>
+
+<div class="formulario">
+    <label for="numero">Número do Cartão:</label>
+    <input type="number" id="numero" name="card-number" required>
+</div>
+
+<div class="formulario">
+    <label for="validade">Data de Validade:</label>
+    <input type="date" id="validade" name="expiry-date" placeholder="MM/AA" required>
+</div>
+
+<div class="formulario">
+    <label for="cvv">CVV:</label>
+    <input type="number" id="cvv" name="cvv" required>
+</div>
+
+ <button type="button" class="botao" onclick="submeterPagamento()">Enviar Pagamento</button>
+
+ </form>
+
+<script>
+    function submeterPagamento(){
+        //Pegando os valores dos campos
+
+        const nome = document.getElementByld('nome').value;
+        const numero = document.getElementByld('numero').value;
+        const validade= documentg.getElementByld('validade').value;
+        const cvv = document.getElementByld('cvv').value;
+        alert("Obrigado, ${nome}! Seu pagamento com o cartão${'numero'} foi processado.");
+        window.close(); //Redireciona para a página inicial
+    }
+</script>
+
+
+<footer>
+    <p>&copy;2024 Minha loja de tênis</p>
+</footer>
+      
+</body>
+</html>

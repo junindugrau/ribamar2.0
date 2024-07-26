@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.parte1{
+
+    margin: 0;
+    padding: 30px 0;
+    background-color:rgb(27, 85, 27); 
+    display: flex;
+    justify-content: center;
+    color:white ;
+
+}
+
+.formulario{
+    width: 500px;
+    height: 40px;
+   padding: 10px;
+}
+
+button{
+background-color: rgb(27, 85, 27);
+color: white;
+border-radius: 7px;
+width: 100px;
+height: 40px;
+border: 1px solid;
+
+}
+
+footer{
+
+    background-color: rgb(27, 85, 27);
+color: white;
+text-align: center;
+padding: 20px 0;
+bottom: 0;
+    
+}
